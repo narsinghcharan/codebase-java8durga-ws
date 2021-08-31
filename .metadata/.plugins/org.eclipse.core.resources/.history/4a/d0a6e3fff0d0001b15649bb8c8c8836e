@@ -1,0 +1,39 @@
+package com.myex.sge;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+import com.myex.sge.pojo.Student;
+
+//distinct by multiple fields
+public class StreamDistinctByApp2 {
+
+	public static void main(String[] args) {
+
+		List<Student> students = new ArrayList<>();
+
+		students.add(new Student(1,"Narsingh",29));
+		students.add(new Student(1,"Charan",28));
+		students.add(new Student(1,"Narsingh",29));
+		
+		students.add(new Student(2,"Babu",20));
+		students.add(new Student(2,"Santosh",30));
+		students.add(new Student(2,"Santosh",32));
+		
+		students.add(new Student(3,"Charan",28));
+		students.add(new Student(3,"Kuni",31));
+		
+		students.add(new Student(4,"Santuni",30));
+		students.add(new Student(5,"Bhai",29));
+		
+		/*
+		 grouping list of students by their age :-
+		 here age can be same in multiple Student objects so if we group the Student objects by age then we have to 
+		 group them in the below way
+		 */
+		
+		
+	}
+}

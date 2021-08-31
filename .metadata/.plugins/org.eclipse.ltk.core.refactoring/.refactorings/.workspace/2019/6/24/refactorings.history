@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;77_stream_foreach_ex1&apos; to &apos;78_stream_foreach_ex1&apos;&#x0D;&#x0A;- Original element: &apos;77_stream_foreach_ex1&apos;&#x0D;&#x0A;- Renamed element: &apos;77_stream_foreach_ex1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;77_stream_foreach_ex1&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=77_stream_foreach_ex1" name="78_stream_foreach_ex1" references="true" stamp="1560143505335" version="1.0"/>
+</session>

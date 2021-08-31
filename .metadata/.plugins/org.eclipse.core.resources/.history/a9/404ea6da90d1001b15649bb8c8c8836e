@@ -1,0 +1,18 @@
+package com.myex.sge;
+
+import java.util.stream.Stream;
+
+public class StreamOfPrimitives {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+}
+
+/*
+ * we can use Stream.iterate() to create stream values on demand, so called
+ * infinite stream.
+ * 
+ */

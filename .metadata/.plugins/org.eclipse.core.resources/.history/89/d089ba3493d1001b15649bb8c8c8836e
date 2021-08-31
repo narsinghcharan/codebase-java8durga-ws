@@ -1,0 +1,24 @@
+package com.myex.sge;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class PrimitiveStreams {
+
+	public static void main(String[] args) {
+		
+		int[] numbers = new int[] {1,2,3,4,5,6,7};	//it is array of primitive integers
+		
+		//IntStream intSteam = Stream.of(numbers);
+		
+		Stream.of(numbers).forEach(System.out::print);;
+		
+		System.out.println("\n------------------------------------");
+		
+		IntStream.of(numbers).forEach(System.out::print);;
+	}
+}
+
+/*
+ava 8 stream framework has a generic Stream<T> for objects as elements, and three primitive streams IntStream, LongStream, DoubleStream for the main three primitives. If you work with primitives, use one of these.
+ */

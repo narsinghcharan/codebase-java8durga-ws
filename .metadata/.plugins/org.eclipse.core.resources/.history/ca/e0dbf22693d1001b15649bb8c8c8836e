@@ -1,0 +1,26 @@
+package com.myex.sge;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class PrimitiveStreams {
+
+	public static void main(String[] args) {
+		
+		int[] numbers = new int[] {1,2,3,4,5,6,7};	//it is array of primitive integers
+		
+		//IntStream intSteam = Stream.of(numbers);
+		
+		Stream.of(numbers).forEach(System.out::print);;
+		
+		System.out.println("\n------------------------------------");
+		
+		IntStream.of(numbers).forEach(System.out::print);;
+	}
+}
+
+/*
+ * we can use Stream.iterate() to create stream values on demand, so called
+ * infinite stream.
+ * 
+ */

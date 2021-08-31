@@ -1,0 +1,22 @@
+package com.myex.sge;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class PrimitiveStreams {
+
+	public static void main(String[] args) {
+
+		int sum = IntStream.range(1, 10).sum();		//here the end range i.e. 10 is exclusive
+		System.out.println(sum);
+		
+		System.out.println("---------------------");
+		
+	}
+}
+
+/*
+ * we can use Stream.iterate() to create stream values on demand, so called
+ * infinite stream.
+ * 
+ */
