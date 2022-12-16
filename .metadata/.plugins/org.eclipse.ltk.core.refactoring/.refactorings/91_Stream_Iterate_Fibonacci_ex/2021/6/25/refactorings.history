@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.myex.sge.StreamIterateTest&apos; to &apos;FibonacciTest&apos;&#x0D;&#x0A;- Original project: &apos;91_StreamIterate_Fibonacci_ex&apos;&#x0D;&#x0A;- Original element: &apos;com.myex.sge.StreamIterateTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.myex.sge.FibonacciTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StreamIterateTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.myex.sge{StreamIterateTest.java[StreamIterateTest" matchStrategy="1" name="FibonacciTest" qualified="false" references="true" similarDeclarations="false" stamp="1623871779553" textual="false" version="1.0"/>
-</session>

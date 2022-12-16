@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
-<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/77_stream_map_distinct_ex2/src/com/myex/sge/StreamMapApp1.java"/>
-</listAttribute>
-<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
-<listEntry value="1"/>
-</listAttribute>
-<booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.myex.sge.StreamMapApp1"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="77_stream_map_distinct_ex2"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/127_stream_map_distinct_ex2/src/com/myex/sge/StreamMapApp1.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.myex.sge.StreamMapApp1"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="127_stream_map_distinct_ex2"/>
 </launchConfiguration>
